@@ -1,0 +1,14 @@
+Peter Gansallo
+Software Engineering
+
+		SWE Boggle Solver Summary
+The review on my code Only had 1 review
+
+Code Clarity: Add comments to every code section and explain what they do.(Line 24,31,36,59,66,). Delete Line 93-259 (only functional code should be submitted). Explain in a comment on line 36 why you assign the value 1 to your hashmap. Otherwise the code is very clear to me!
+Variable names: Change "w" on line 33 to "word". Change "pos_word" on line 55 to "possible_word". Otherwise good variable names!
+Indentation: Split line 25 into 2 lines since it is very long. Delete line 29. Delete line 64 
+Do you feel you can modify the code easily?: You could check if the Grid is 1x1 at the beginning of your code. If that is the case you can return "[]" right away. Otherwise your code looks very good and can be easily modified.
+What is your opinion about the style used: I like that you used a helper function. This makes the code more understandable. Maybe you could try to Implement 1-2 more helper functions to make it even more clear.
+Overall I think you you created a very efficient solution by using a hashmap! Make sure to delete any unused code whenever you submit code for review. Its great that you used a helper function to implement your solution. More helper functions would be even better!
+ 
+I wasn’t as clear as I could've been on lines 24,31,36,59,66. I should’ve explained what’s going on in those lines, so I am going to add comments to those lines so those better understand what is going on. From lines 93-259, I had code where I was approaching the answer in a different way and had almost practically solved it, but it was also a very ineffective way of solving the question, but it takes up unnecessary space in my code in which therefore it will be removed. On lines 33 and 55 I use variables where I try to shorten the word because I was being lazy for example on line 33 I use the variable called “w” which represents a word in the dictionary, but someone who is reading the code might not know that and therefore they may be less likely to understand the code and they goes the same for line 55 where I use “pos_word” which I think is more understandable but if I am more clear and change it to something like “Possible_word” there should be no chance of any confusion of what the variables in my code represent. Line 25 is very long so, and one might not see everything in the list, so it would be best if I were to split line 25 into 2 or more lines. In lines 29 and 64 I have unnecessary spaces in my code which will be removed. I can return an empty list at the beginning of my code if the input is a 1x1 grid.
